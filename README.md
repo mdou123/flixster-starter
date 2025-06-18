@@ -108,16 +108,14 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+The topics in class definitely helped me understand this assignment. I especially found the pokemon code this week to be more helpful than the demonstration last week because this time I was able to understand how how react works but I'd still have to implement it myself. So I felt the labs helped give me that starting push to help me understand what I needed to do.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
-
+Definitely added more stretch features. The goal next week is to complete all of them
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
-
+I definitely noticed that  my peers were very creative and went beyond the stretch features and developed their own additions to improve their projeces.
 ### Open-source libraries used
 
 - Add any links to open-source libraries used in your project.
@@ -125,3 +123,4 @@ Add your response here
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Lucia and Devarsh really helped me whenever I was stuck. 
