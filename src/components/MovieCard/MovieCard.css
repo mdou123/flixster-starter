@@ -1,0 +1,59 @@
+.movieItem {
+    background-color: #282828; /* Slightly lighter dark grey than body background (#212121) */
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for visibility on dark background */
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    min-width: 200px;
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    color: #F0F0F0; /* General text color set to a soft white */
+}
+
+.movieItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); /* More pronounced shadow on hover */
+}
+
+.movieItem img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.movie-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #F0F0F0; /* Set movie title color to soft white */
+    margin: 0 10px 8px;
+    line-height: 1.3;
+    min-height: 2.6em;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+.movie-release-date,
+.movie-vote-average {
+    font-size: 0.9rem;
+    color: #F0F0F0; /* Set secondary info text color to soft white */
+    margin: 0 10px 5px;
+}
+
+.movie-vote-average {
+    font-weight: 500;
+    margin-bottom: 10px;
+}

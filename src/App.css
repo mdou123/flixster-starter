@@ -1,9 +1,11 @@
 .App {
   text-align: center;
+  align-items: stretch;
+  background-color: #282828;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282828;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,8 +13,14 @@
   color: white;
   padding: 20px;
 }
+.header{
+  padding-left: 20px;
+  padding-top: 35px;
+}
+.header h1{
+  background-color: #282828;
+}
 
-@media (max-width: 600px) {
   .movie-card {
     width: 100%;
   }
@@ -25,4 +33,40 @@
   .search-bar form {
     flex-direction: column;
   }
+
+
+.centerBar{
+
+  justify-content: center;
+  
+  padding-left: 20px;
+}
+.dropdown-Menu{
+  margin-left: 20px;
+  
+}
+.searchBar{
+  align-self:baseline;
+}
+
+.centerBar{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right:10px;
+  background-color: #282828;
+  padding-bottom: 20px;
+}
+.movieList{
+  background-color: #1A1A1A;
+}
+.footer{
+display: flex;;
+justify-content: end;
+}
+.footer p{
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  background-color: #282828;
+  color:white;
 }
